@@ -80,7 +80,6 @@ A frontend interface was built using **Streamlit**, allowing users to input clin
 
 ### Features:
 
-- Interactive sidebar to input all 11 features
 - Uses saved preprocessing and model artifacts
 - Applies the threshold tuned at `0.44` to prioritize recall
 - Displays:
@@ -113,7 +112,6 @@ streamlit run app.py
 ## 📚 Future Improvements
 
 - Add model explainability using **SHAP** values or **LIME**
-- Deploy the app to **Streamlit Cloud** or **Render**
 - Log and monitor real-time user inputs for analysis (with consent)
 - Extend the model to handle multiclass cardiovascular risk levels
 - Add an API layer using **FastAPI** or **Flask**
@@ -122,7 +120,7 @@ streamlit run app.py
 
 ## 🙋 Author
 
-**Harshit Mishra**  
+**Harshit**  
 B.Tech CSE Student  
 Project built with academic precision and focus on healthcare responsibility.
 
